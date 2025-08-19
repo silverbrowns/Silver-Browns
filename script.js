@@ -1,3 +1,4 @@
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 particlesJS("particles-js", {
   "particles": {
     "number": { "value": 60 },
@@ -24,5 +25,6 @@ const music = document.getElementById( 'bg-music' );
                   toggleBtn.textContent = 'Play Music' ;
                }
           });
+
 
 
