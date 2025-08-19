@@ -2,7 +2,8 @@ particlesJS("particles-js", {
   "particles": {
     "number": { "value": 60 },
     "size": { "value": 2 },
-    "color": { "value": "#ffffff" },  //white particles
+    "color": { "value": ["#ff6ec7", "#a64dff", "#ffffff"] },  // pink, purple, white
+    "opacity": { "value": 0.7 },
     "line_linked": { "enable": false },
     "move": { "speed": 0.5 }
   },
@@ -23,4 +24,5 @@ const music = document.getElementById( 'bg-music' );
                   toggleBtn.textContent = 'Play Music' ;
                }
           });
+
 
