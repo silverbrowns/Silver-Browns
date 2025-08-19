@@ -1,5 +1,15 @@
  body {
-               /* Diagonal gradient from top-left (white) to bottom-right (purple) */
+  /* Particle container (transparent so gradient shows through) */
+  #particles-js {
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     z-index: -1;
+  }
+     background: transparent;
+  /* Diagonal gradient from top-left (white) to bottom-right (purple) */
                font-family: Arial, sans-serif;
                margin: 0;
                padding: 0;
@@ -158,3 +168,4 @@
                transform: translateY(-3px);
                box-shadow: 0 8px 20px rgba(0,0,0,0.3);
           }
+
