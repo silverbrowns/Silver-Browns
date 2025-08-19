@@ -1,3 +1,15 @@
+const music = document.getElementById( 'bg-music' );
+          const toggleBtn = document.getElementById( 'music-toggle' );
+
+          toggleBtn.addEventListener( 'click', () => {
+              if (music.paused) {
+                  music.play();   
+                  toggleBtn.textContent = 'Pause Music' ;
+               } else {
+                  music.pause();
+                  toggleBtn.textContent = 'Play Music' ;
+               }
+          });
 particlesJS("particles-js", {
   #"particles": {
     "number": { "value": 60 },
@@ -11,19 +23,6 @@ particlesJS("particles-js", {
     "event": { "onhover": { "enable": false } }
   }
 });
-
-const music = document.getElementById( 'bg-music' );
-          const toggleBtn = document.getElementById( 'music-toggle' );
-
-          toggleBtn.addEventListener( 'click', () => {
-              if (music.paused) {
-                  music.play();   
-                  toggleBtn.textContent = 'Pause Music' ;
-               } else {
-                  music.pause();
-                  toggleBtn.textContent = 'Play Music' ;
-               }
-          });
 
 
 
